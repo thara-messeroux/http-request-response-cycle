@@ -15,7 +15,20 @@
 - **Response**: message sent back from server to client
 
 ## Concepts: What is HTTP?
-(Write notes here)
+
+HTTP (Hypertext Transfer Protocol) is a set of rules that defines how a browser
+(client) communicates with a server.
+
+- The browser sends a request
+- The server sends back a response
+- Each request–response pair is independent
+
+### Stateless
+HTTP is stateless, which means the server does not remember previous requests.
+
+- After the server sends a response, the interaction ends
+- Each new request is treated as if it is the first time
+- Any “memory” (logins, carts, preferences) must be added separately (e.g., cookies or sessions)
 
 ## Fundamentals: Request–Response Cycle
 (Write notes here)

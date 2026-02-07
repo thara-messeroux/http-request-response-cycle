@@ -31,7 +31,18 @@ HTTP is stateless, which means the server does not remember previous requests.
 - Any “memory” (logins, carts, preferences) must be added separately (e.g., cookies or sessions)
 
 ## Fundamentals: Request–Response Cycle
-(Write notes here)
+
+The HTTP request–response cycle describes how communication on the web works.
+
+1. A user performs an action (typing a URL, clicking a link, submitting a form)
+2. The browser (client) sends an HTTP request to a server
+3. The server receives the request and processes it
+4. The server sends an HTTP response back to the browser
+5. The browser displays the result to the user
+
+Each request–response interaction is separate.
+After the response is sent, the connection ends.
+
 
 ## HTTP Methods
 (Write notes here)

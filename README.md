@@ -148,6 +148,22 @@ https://localhost:3000/tacos?spicy=true
 - Path: what resource is requested
 - Query parameters: extra instructions
 
-
 ## Laminated Checklist
-(Write notes here)
+
+### Before Sending a Request
+- Do I know which server I’m talking to (host)?
+- Do I know which resource I’m asking for (path)?
+- Am I using the correct HTTP method (GET, POST, etc.)?
+- Do I need query parameters (filters, options)?
+
+### When Reading a Response
+- Check the status code first (2xx, 4xx, 5xx)
+- Look at headers for metadata (content type, length)
+- Read the body for the actual data
+
+### Mental Model Check
+- Client always initiates the request
+- Server always responds
+- One request → one response
+- HTTP itself is stateless
+

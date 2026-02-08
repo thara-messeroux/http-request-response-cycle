@@ -45,7 +45,14 @@ After the response is sent, the connection ends.
 
 
 ## HTTP Methods
-(Write notes here)
+HTTP methods describe the action a client wants to perform on a server.
+
+- **GET**: Retrieve data from the server (does not change data)
+- **POST**: Create new data on the server
+- **PUT**: Update existing data on the server
+- **DELETE**: Remove data from the server
+
+The method communicates intent, not just the resource being accessed.
 
 ## Anatomy of HTTP Request/Response Messages
 (Write notes here)

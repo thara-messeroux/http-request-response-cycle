@@ -85,7 +85,29 @@ Status codes appear in the response start line and describe the result of a requ
 
 
 ## Sending HTTP Requests From the Browser
-(Write notes here)
+
+Browsers send HTTP requests whenever a user interacts with a webpage.
+
+### URL Anatomy
+
+A URL tells the browser where to go and what to ask for.
+
+Example:
+https://localhost:3000/tacos?spicy=true
+
+- **Protocol**: how to communicate (http or https)
+- **Host**: which computer to talk to (e.g., localhost)
+- **Port**: which door on that computer (e.g., 3000)
+- **Path**: which resource is requested (e.g., /tacos)
+- **Query parameters**: extra instructions (e.g., spicy=true)
+
+### Browser Behavior
+
+- Typing a URL or clicking a link sends a GET request
+- Loading one webpage usually triggers many HTTP requests
+  (HTML, CSS, JavaScript, images, fonts)
+- `localhost` refers to the user’s own computer during development
+
 
 ## Cheat Sheet
 (Write notes here)

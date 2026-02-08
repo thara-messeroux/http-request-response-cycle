@@ -55,7 +55,34 @@ HTTP methods describe the action a client wants to perform on a server.
 The method communicates intent, not just the resource being accessed.
 
 ## Anatomy of HTTP Request/Response Messages
-(Write notes here)
+
+Every HTTP request and response follows the same structure, in this order:
+
+1. **Start line**
+   - Requests: includes the HTTP method and path (e.g., GET /tacos)
+   - Responses: includes the status code (e.g., 200 OK)
+
+2. **Headers**
+   - Provide extra information about the request or response
+   - Examples: Content-Type, Host
+
+3. **Empty line**
+   - Separates headers from the body
+
+4. **Body**
+   - Contains the actual data (HTML, JSON, text)
+   - If there is data, it lives in the body
+
+### HTTP Status Codes
+
+Status codes appear in the response start line and describe the result of a request.
+
+- **1xx**: Informational — request received, still processing
+- **2xx**: Success — the request worked
+- **3xx**: Redirect — the client should go somewhere else
+- **4xx**: Client error — the request was incorrect (e.g., 404 Not Found)
+- **5xx**: Server error — the server failed to handle the request (e.g., 500)
+
 
 ## Sending HTTP Requests From the Browser
 (Write notes here)

@@ -110,7 +110,44 @@ https://localhost:3000/tacos?spicy=true
 
 
 ## Cheat Sheet
-(Write notes here)
+
+### HTTP Basics
+- HTTP is a set of rules for communication between a browser (client) and a server
+- Communication happens in a request → response cycle
+- HTTP is stateless: the server does not remember past requests
+
+### Request–Response Cycle
+1. Browser sends a request
+2. Server processes it
+3. Server sends a response
+4. Connection ends
+
+### HTTP Methods
+- GET: retrieve data
+- POST: create data
+- PUT: update data
+- DELETE: remove data
+
+### HTTP Message Structure
+1. Start line
+2. Headers
+3. Empty line
+4. Body (actual data)
+
+### Status Codes
+- 1xx: informational
+- 2xx: success
+- 3xx: redirect
+- 4xx: client error
+- 5xx: server error
+
+### URL Anatomy
+- Protocol: how to communicate (http/https)
+- Host: which computer
+- Port: which door on that computer
+- Path: what resource is requested
+- Query parameters: extra instructions
+
 
 ## Laminated Checklist
 (Write notes here)
